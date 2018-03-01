@@ -27,9 +27,9 @@ public class  MainActivity extends AppCompatActivity {
         bc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int ival= Integer.parseInt(tc.getText().toString());
-                ival=ival+1;
-                tc.setText(String.valueOf(ival));
+                int val= Integer.parseInt(tc.getText().toString());
+                val=val+1;
+                tc.setText(String.valueOf(val));
             }
         });
         br.setOnClickListener(new View.OnClickListener() {
